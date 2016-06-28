@@ -29,6 +29,7 @@ and open the template in the editor.
             echo "<br>";
             echo '<form method="POST" name="personal"><br>';
             echo 'Nombre: <input name="nombre" type="text" value="'.$nombre.'"><br>';
+            echo 'Apellidos: <input name="apellidos" type="text" value="'.$apellidos.'"><br>';
             echo '<button type="submit" name="envia">Enviar</button><br>';
             echo '<input type="hidden" name="oculto">';
             echo "<br></form>";
