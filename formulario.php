@@ -13,10 +13,8 @@ and open the template in the editor.
         <?php
         $muestraform="S";
         $nombre="";
-        $apellidos="";
         if (isset($_REQUEST["oculto"])) {
-            $nombre=$_REQUEST["nombre"];
-            $apellidos=$_REQUEST["apellidos"];
+            $nombre=$_REQUEST["nombre"];   
             if (empty($nombre)) {
                 echo "Error: Ha dejado el nombre en blanco";                
             } else {
