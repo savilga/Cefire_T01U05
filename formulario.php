@@ -19,9 +19,12 @@ and open the template in the editor.
             $apellidos=$_REQUEST["apellidos"];
             if (empty($nombre)) {
                 echo "Error: Ha dejado el nombre en blanco";                
+            } elseif ($apellidos == "") {
+                echo "Error: Ha dejado el apellido en blanco";
             } else {
-                echo "El valor enviado es:<br>";
+                echo "Los valores enviados son:<br>";
                 echo "Nombre: ".$nombre;
+                echo "Apellidos: ".$apellidos;
                 $muestraform ="";
             }
         }
